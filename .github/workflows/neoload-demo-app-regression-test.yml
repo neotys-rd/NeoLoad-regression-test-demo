@@ -1,4 +1,4 @@
-name: Demo App Regression Test
+name: NeoLoad Demo App Regression Test
 on: workflow_dispatch
 env:
   TEST_NAME: '"CI Pipeline performance regression test"'
