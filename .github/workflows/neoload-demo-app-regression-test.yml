@@ -8,6 +8,7 @@ jobs:
     name: Nightly build demo application
     runs-on: ubuntu-latest
     strategy:
+      fail-fast: false
       matrix:
         include:
           - api_url: https://neoload-api-eu.saas.neotys.com/
