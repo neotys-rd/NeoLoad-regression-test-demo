@@ -26,6 +26,6 @@ jobs:
           --external-url $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID 
           --external-url-label "Github Action Run $GITHUB_RUN_NUMBER" 
           --name "Demo app regression test - Github build $GITHUB_RUN_NUMBER" 
-          --description "Example of CI performance regression job started from Github, \ntargeting a specific user path in the demo application." 
+          --description "Example of CI performance regression job started from Github, targeting a specific user path in the demo application." 
           ${{ env.TEST_NAME }}
  
