@@ -25,8 +25,8 @@ jobs:
         run: >
           neoload run 
           --external-url $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID 
-          --external-url-label "Github Action Run ${{ env.WORKSPACE_NAME }}.$GITHUB_RUN_NUMBER" 
-          --name "Demo app regression test - Github build ${{ env.WORKSPACE_NAME }}.$GITHUB_RUN_NUMBER" 
+          --external-url-label "Github Action Run ${{ env.VERSION }}.$GITHUB_RUN_NUMBER" 
+          --name "Demo app regression test - Github build ${{ env.VERSION }}.$GITHUB_RUN_NUMBER" 
           --description "Example of CI performance regression job started from Github, targeting a specific user path in the demo application." 
           ${{ env.TEST_NAME }}
  
